@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.4;
 
-import '../node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol'; 
-import '../node_modules/@openzeppelin/contracts/access/Ownable.sol';
+import '@openzeppelin/contracts/token/ERC721/ERC721.sol'; 
+import '@openzeppelin/contracts/access/Ownable.sol';
 
 contract NFTmint is ERC721, Ownable{
   uint256 public mintPrice;
